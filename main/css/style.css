@@ -1,3 +1,4 @@
+/* Creating a color layout for entire page */
 :root {
     --purple: #E866EC;
     --grey: #33393F;
@@ -16,7 +17,7 @@ h1, h2 {
 h1{
     text-align: center;
 }
-
+/* heading with parapgraph */
 header > p{
     color: var(--white);
     text-align: center;
@@ -38,6 +39,8 @@ p{
     background-color: var(--purple);
 
 } 
+
+/* all cards */
 section{
     display: flex;
     flex-wrap: wrap;
@@ -46,6 +49,8 @@ section{
   
    
 }
+
+
 .card-column {
    display: flex;
    flex: 1 0 100%;
@@ -54,7 +59,7 @@ margin: 20px;
 
 }
 
-
+/* display fo each card */
 figure{
     display: flex;
     flex-direction: column;
@@ -75,7 +80,7 @@ figure{
     
 } 
 
-
+/* media queries */
 @media screen and (min-width: 768px) {
     .card-column {
       flex: 0 0 50%;
@@ -98,6 +103,8 @@ figure{
     }
   }
 
+
+  /* hovering effect */
   figure:hover, 
   figure:hover .card-title {
     box-shadow: inset 0px 0px 8px var(--purple), 0 0 15px var(--purple);
