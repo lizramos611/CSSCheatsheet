@@ -1,9 +1,9 @@
 # CSSCheatsheet
 
-#Practice With CSS & HTML
+# Practice With CSS & HTML
 
   # Description: Making a cheatsheet for css tools to help study!
-  ##Skills shown include:
+  ## Skills shown include:
   <br>
   *CSS selectors
   *Hover effect
